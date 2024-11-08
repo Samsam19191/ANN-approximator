@@ -3,9 +3,9 @@
 This project approximates a 2D Gaussian Probability Density Function (PDF) using an Artificial Neural Network (ANN). 
 
 ### Gaussian Parameters:
-- **Mean**: [0, 0]
-- **Covariance Matrix**: \(\left[\begin{array}{cc} 1 & 1 \\ 1 & 4 \end{array}\right]\)
-  
+- **Mean**: `[0, 0]`
+- **Covariance Matrix**: `[[1, 1], [1, 4]]`
+
 ## Project Overview
 The ANN was trained to approximate the PDF values, and multiple architectures were experimented with to minimize prediction error.
 
